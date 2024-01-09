@@ -3,14 +3,15 @@ import './App.css'
 import Card2 from './components/Card2'
 
 
-
 function App() {
 
 
   return (
    <div>
-    
+   
     <Card2/>
+   
+   
    </div>
   )
 }

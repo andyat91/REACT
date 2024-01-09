@@ -1,6 +1,6 @@
-export default function Title() {
+export default function Title({name, lastname}) {
 
     return (
-        <h1>Mi nombre es Paquito el Chocolatero</h1>
+        <h1>Mi nombre es {name} y mi apellido es {lastname} </h1>
     )
 }
