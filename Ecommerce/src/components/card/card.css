@@ -1,0 +1,201 @@
+.valoracion {
+    color:var(--primario-claro);
+    margin-right: 8px;
+}
+.btn-block {
+    display:block;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: white;
+    width: 25%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+               
+}
+.card .paddingcard {
+  padding:16px;
+}
+.card img{
+    width: 100%;
+    height: 160px; 
+    overflow: hidden;
+    margin-bottom: 32px;
+
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.valoracion i{
+    margin-right: 8px;
+}
+.m-productos .wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding:0px;
+}
+.m-productos .wrap h3,h4{
+  margin:0px
+}
+.m-productos .wrap .btn{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+
+  .card span i:hover{
+    color: var(--resalto);
+  }
+  .main-cards{
+   display: flex;
+   justify-content: space-between;
+   padding:0px;
+   gap:8px;
+   margin-bottom: 32px;
+  }
+  .card .nombreprecio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }
+  
+  #compraid {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+    width: 100%;
+
+    
+  }
+  #compraidresumen {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid;
+    border-color: var(--gris);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    
+    
+  }
+  .cardcarrito {
+    padding-right: 16px;
+    border-radius: 16px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  }
+  .cardcarrito .preciocarrito {
+    margin-top: 8px;
+    border-top: 2px solid;
+    padding: 8px;
+    
+    border-color: var(--primario-claro);
+  }
+  .cardcarrito .productoyprecio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+   
+  }
+  .cardcarrito h5 {
+    margin:0px;
+    display: block;
+  }
+  .cardcarrito img {
+    margin-right: 8px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+  }
+  .cantidadescarrito {
+    display: flex;
+  }
+  .cantidadescarrito .input {
+   padding: 8px;
+   background-color: var(--gris);
+   border-radius: 0px;
+  }
+  .cantidadescarrito .mas{
+    padding: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .cantidadescarrito .menos{
+    padding: 8px;
+    border-radius: 0px;
+  }
+  .cantidadescarrito .delete{
+    padding: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+  .cantidadescarrito .delete:hover{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #FF9999;
+    color: azure;
+  }
+  .compraresumen {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .cardcarrito .fotoproducto {
+    display: flex;
+  }
+
+  #mistarjetas li {
+    list-style-type: none;
+  }
+  #mistarjetas .tarjeta {
+    text-decoration: none;
+    border-radius: 8px;
+    color:var(--primario-oscuro);
+    border: 2px solid;
+    display:inline-block;
+    padding: 8px 120px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  #mistarjetas .tarjeta i{
+  margin-right: 16px;
+  }
+
+  #mistarjetas .check {
+    color: var(--blanco);
+  }
+
+  #mistarjetas .tarjeta:active {
+    background-color: var(--primario-claro);
+    color:var(--blanco);
+  }
+
+  #mistarjetas .tarjeta:focus {
+    background-color: var(--primario-claro);
+    color:var(--blanco);
+  }
+
+  #mistarjetas .tarjeta h5 {
+    margin: 0px;
+
+  }
+  #tarjetaselect {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: var(--primario-claro);
+    color:var(--blanco);
+    border: 2px solid;
+    display:inline-block;
+    padding: 8px 120px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }

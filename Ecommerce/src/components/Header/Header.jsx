@@ -1,5 +1,5 @@
 import "./Header.css";
-
+import Buttonspan from "../button-span/button-span";
 
 
 
@@ -25,12 +25,7 @@ export default function Header() {
               placeholder="busca tu producto"
             />
           </form>
-          <a className="btn relative" href="/html/carrito.html" id="carrito">
-            <b>
-              <i className="bi bi-bag-heart"></i> Carrito
-            </b>
-            <span id="cantidad">0</span>
-          </a>
+        <Buttonspan/>
         </div>
       </header>
     </div>

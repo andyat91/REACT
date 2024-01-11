@@ -1,0 +1,18 @@
+.spanlogin {
+    
+    color:var(--blanco);
+    background-color: var(--gris);
+    padding: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#spanlogin {
+    display: flex;
+    align-items: center;
+}
+#spanlogin .btn{
+    margin: 0px;
+    padding: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}

@@ -1,0 +1,7 @@
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+    padding:0px;
+    gap:8px;
+    margin-bottom: 32px;
+   }
