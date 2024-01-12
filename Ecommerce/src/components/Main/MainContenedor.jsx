@@ -7,9 +7,7 @@ export default function MainContenedor() {
     return( 
     <div className="main-cards wrap" id="cards"> 
     <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
+ 
     </div> )
 
 }

@@ -1,3 +1,5 @@
+import "./jumbotron.css"
+
 export default function Jumbotron() {
 
     return(
