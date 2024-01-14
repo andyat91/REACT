@@ -1,28 +1,27 @@
+import Star from "../../assets/icons/Star/Star";
 import "./valoracion.css";
-import reviews from "../../bbdd/reviews";
 
 export default function Valoracion() {
-//...rest de propiedades nativas dentro de donde se esté utilizanado
-    const valoraciones = 0;
-  return (
-    <div className="caja caja-destacada" id="valoracionescaja">
-      <button onClick={Valoracion(valoraciones-1)} className="btn hidden">
-        <i className="bi bi-arrow-left hidden"></i>
-      </button>
-      <div>
-        <h5 className="opinionesdestacadas">Opiniones destacadas</h5>
-        <p id="valoracionText">{reviews[valoraciones].descripcion} </p>
+  //...rest de propiedades nativas dentro de donde se esté utilizanado
 
-        <h5>${reviews[valoraciones].usuario}</h5>
-        <div className="valoracion">
-        
-          <i className="bi bi-star"></i>
-         
-        </div>
+  return (
+    <div className="cajadescripcion">
+      <p>
+        El precio esta bien algo más barato que en los centros comerciales, este
+        pan es mucho mejor que otras marcas y el precio es más barato o igual:
+        Recomiendo su compra. A ver si de una vez los politicos tienen en cuenta
+        a las personas con celiaquía y bajan el IVA de estos productos.
+      </p>
+      <div className="estrellas">
+        <h5>Maricarmen Sanchez</h5>
+        <span>
+          <Star />
+          <Star />
+          <Star />
+        </span>
+          <Star />
+          <Star />
       </div>
-      <button onClick="valoraciones(${valoracion+1})" className="btn">
-        <i className="bi bi-arrow-right"></i>
-      </button>
     </div>
   );
 }

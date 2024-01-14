@@ -1,0 +1,7 @@
+.estrellas {
+    text-align: right;
+    color: var(--resalto);
+}
+.estrellas i:hover {
+    color:var(--primario-claro);
+}

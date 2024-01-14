@@ -185,7 +185,7 @@ export default function HeaderMaterial() {
             sx={{
               display: { xs: "inline-block" },
               color: "var(--resalto)",
-              marginTop: "0px",
+              marginTop: "0px"
             }}
           >
             <i className="bi bi-globe-americas"></i>

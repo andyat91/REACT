@@ -1,11 +1,12 @@
 .m-productos .wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 32px;
     margin-bottom: 32px;
     padding:0px;
   }
-  .m-productos .wrap h3,h4{
+  .m-productos .wrap h3,h5{
     margin:0px
   }
   .m-productos .wrap .btn{

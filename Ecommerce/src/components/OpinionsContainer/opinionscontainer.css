@@ -1,0 +1,15 @@
+.opiniones{
+    display: flex;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom:40px;
+  
+  
+  }
+  .opiniones div{
+    width: 100%;
+    text-align: center;
+    
+  }
+ 
+  

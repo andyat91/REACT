@@ -1,5 +1,9 @@
 div{
     width: 100%;
-    text-align: center;
-    
+     
+  }
+
+   div h5{
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
