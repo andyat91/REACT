@@ -18,7 +18,7 @@ export default function Footer() {
             </b>
           </h3>
           <div>
-            <div>
+            
               <ul className="menu">
                 <li>
                   <a href="https://www.google.es/">Centro de ayuda</a>
@@ -33,9 +33,9 @@ export default function Footer() {
                   <a href="https://www.google.es/">Servicio telefonico</a>
                 </li>
               </ul>
-            </div>
+         
 
-            <div>
+          
               <ul className="menu">
                 <li>
                   <a href="/html/politicadeprivacidad.html">Politica de privacidad</a>
@@ -50,7 +50,7 @@ export default function Footer() {
                   <a href="https://www.google.es/">Atención al cliente</a>
                 </li>
               </ul>
-            </div>
+           
           </div>
         </div>
         <div className="newsletter">

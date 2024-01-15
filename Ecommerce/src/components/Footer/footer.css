@@ -1,10 +1,10 @@
 
- div #logo:hover{
+footer div #logo:hover{
     color:var(--resalto);
     
 }
- h3 {
-    margin-top: 16px;
+footer h3 {
+   margin-top: 0px;
     
 }
 
@@ -13,60 +13,71 @@ footer {
     color: var(--blanco);
     
 }
-.wrap {
+footer .wrap {
     display: flex;
     margin-top:16px;
     justify-content: space-between;
     align-items: center;
+    padding-top: 36px;
     
 }
- div .logonav {
+footer  div .logonav {
     display: flex;
     flex-direction: column;
+    justify-content: left;
     
-    width: 100%;
+    width: 150%;
     
 }
+footer .logonav {
+    margin-top: 0px;
+}
 
-.logonav div {
+footer .logonav div {
     display: flex;
     justify-content: left;
 } 
 
- div ul {
+
+footer  div ul {
     list-style-type: none;
 
 }
- .logonav div ul li{
+footer .logonav div ul li{
     padding-top:16px;
 }
 
- .logonav div ul li a{
+footer .logonav div ul li a{
     text-decoration: none;
     list-style-type: none;
     color: var(--blanco);
     
 }
-.logonav div ul li a:hover {
+footer .logonav div ul li a:hover {
     color: var(--resalto);
 }
-.menu {
-    padding-left: 16px;
-    margin-right: 32px;
+footer .menu {
+    padding-right: 64px;
+    padding-left: 0px;
+  
 }
 
-.redes {
+footer .redes {
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
 }
- .newsletter div {
+footer .newsletter div {
     margin-bottom: 40px;
 }
- .redes2 {
+footer .redes2 {
     border-top: 1px solid var(--blanco);
 }
-.btn {
+
+footer .redes2 li:hover{
+    color:var(--resalto)
+}
+footer .btn {
     background-color: var(--blanco);
     padding: 0;
     border-bottom-left-radius: 0px;
@@ -76,10 +87,10 @@ footer {
     border-bottom: 1px solid var(--primario-claro);
 } 
 
- .newsletter .onclick{
+footer .newsletter .onclick{
     display: flex;
 }
-.newsletter form input{
+footer .newsletter form input{
     margin: 0;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
@@ -87,6 +98,6 @@ footer {
     border-left: 1px solid var(--primario-claro);
     border-bottom: 1px solid var(--primario-claro);
 }
-.check {
+footer .check {
     padding-top: 16px;
 }
