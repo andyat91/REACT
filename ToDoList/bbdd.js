@@ -1,102 +1,93 @@
 export const todolist = [
     {
       id: 1,
-      title: "delectus aut autem",
+      title: "Hacer la compra",
       completed: false,
     },
     {
       id: 2,
-      title: "quis ut nam facilis et officia qui",
+      title: "Index ecommerce con REACT",
       completed: false,
     },
     {
       id: 3,
-      title: "fugiat veniam minus",
+      title: "Polo Digital- EVENTOS",
       completed: false,
     },
     {
       id: 4,
-      title: "et porro tempora",
+      title: "Polo Digital- MOBILIARIO",
       completed: true,
     },
     {
       id: 5,
-      title: "laboriosam mollitia et enim quasi adipisci quia provident illum",
+      title: "Polo Digital- INVENTARIO",
       completed: false,
     },
     {
       id: 6,
-      title: "qui ullam ratione quibusdam voluptatem quia omnis",
+      title: "Preparar grupo voluntariado",
       completed: false,
     },
     {
       id: 7,
-      title: "illo expedita consequatur quia in",
+      title: "Limpieza terraza",
       completed: false,
     },
     {
       id: 8,
-      title: "quo adipisci enim quam ut ab",
+      title: "Pintar Mandala",
       completed: true,
     },
     {
       id: 9,
-      title: "molestiae perspiciatis ipsa",
+      title: "Limpieza del local- Viventos",
       completed: false,
     },
     {
       id: 10,
-      title: "illo est ratione doloremque quia maiores aut",
+      title: "Orden del local- Viventos",
       completed: true,
     },
     {
       id: 11,
-      title: "vero rerum temporibus dolor",
+      title: "Grabar video ecommerce",
       completed: true,
     },
     {
       id: 12,
-      title: "ipsa repellendus fugit nisi",
-      completed: true,
-    },
-    {
-      id: 13,
-      title: "et doloremque nulla",
+      title: "Publicación LinkedIn - Gestión emocional",
       completed: false,
     },
     {
+      id: 13,
+      title: "Publicación LinkedIn - Organización y estudio en las vacaciones",
+      completed: true,
+    },
+    {
       id: 14,
-      title: "repellendus sunt dolores architecto voluptatum",
+      title: "Aplicar masilla juntas del baño",
       completed: true,
     },
     {
       id: 15,
-      title: "ab voluptatum amet voluptas",
-      completed: true,
+      title: "Hacer menú semanal",
+      completed: false,
     },
     {
       id: 16,
-      title: "accusamus eos facilis sint et aut voluptatem",
+      title: "Sacar cita medico",
       completed: true,
     },
     {
       id: 17,
-      title: "quo laboriosam deleniti aut qui",
+      title: "Comprar regalo de Lean",
       completed: true,
     },
     {
       id: 18,
-      title: "dolorum est consequatur ea mollitia in culpa",
+      title: "Planteamiento e ideas Proyecto Final",
       completed: false,
-    },
-    {
-      id: 19,
-      title: "molestiae ipsa aut voluptatibus pariatur dolor nihil",
-      completed: true,
-    },
-    {
-      id: 20,
-      title: "ullam nobis libero sapiente ad optio sint",
-      completed: true,
-    },
+    }
+
   ];
