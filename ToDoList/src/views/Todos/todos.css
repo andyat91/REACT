@@ -1,0 +1,7 @@
+.container {
+    margin: 32px;
+    padding: 32px;
+    border: 4px solid;
+    border-radius: 8px;
+    border-color: cadetblue;
+}

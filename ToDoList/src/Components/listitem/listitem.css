@@ -1,0 +1,5 @@
+.completed {
+    background-color: cadetblue;
+    text-decoration: line-through;
+    color: azure;
+}
