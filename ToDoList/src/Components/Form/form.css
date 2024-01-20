@@ -1,0 +1,13 @@
+input {
+    width: 96%;
+    padding: 8px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: rgb(92, 146, 146);
+    margin: 0px;
+    background-color: azure;
+    margin-bottom: 16px;
+    font-size: 24px;
+}

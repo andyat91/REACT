@@ -1,5 +1,30 @@
-.completed {
-    background-color: cadetblue;
-    text-decoration: line-through;
-    color: azure;
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
 }
+.completed {
+  
+    text-decoration: line-through;
+    color:rgb(110, 163, 165) ;
+   
+}
+.uncompleted {
+    font-weight: bold;
+}
+
+
+.button {
+    background-color: rgb(110, 163, 165);
+}
+.bi{
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+.button:hover{
+    background-color: rgb(106, 210, 216);
+   
+}
+

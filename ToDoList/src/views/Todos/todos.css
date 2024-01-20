@@ -1,7 +1,48 @@
-.container {
+.container{
     margin: 32px;
-    padding: 32px;
+    padding: 160px;
     border: 4px solid;
     border-radius: 8px;
     border-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+   
 }
+
+.dark{
+    background-color: rgb(58, 70, 67);
+    color: azure;
+}
+
+button {
+    border: none;
+    
+}
+.light button {
+    background-color: cadetblue;
+  
+}
+
+.dark button {
+    background-color: cadetblue;
+   
+}
+
+button:hover {
+    background-color: rgb(106, 210, 216);
+    
+}
+
+.bi-clipboard-check {
+
+    font-size: 60px;
+}
+
+.title{
+    font-family: "Ma Shan Zheng"; 
+    font-size: 80px;
+    margin-top: 0px;
+   
+}
+
