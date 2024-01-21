@@ -3,6 +3,7 @@ import "./form.css";
 //function que recibe tres props el enviar, manejar cambio y tarea
 export default function Form({ onSubmit, setState, state }) {
   function handleChange(e) {
+    
     //Va actualizando el valor de entrada mientras se escribe en el input
     setState(e.target.value);
   }
