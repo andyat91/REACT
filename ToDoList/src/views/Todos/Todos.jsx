@@ -45,6 +45,7 @@ export default function Todos() {
       />
 
       <List items={todos} setState={setTodos} />
+      
       <button onClick={ToggleDarkMode}>
         {darkMode ? (
           <i className="bi bi-brightness-high">LightMode</i>
