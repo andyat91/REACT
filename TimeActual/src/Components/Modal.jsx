@@ -11,6 +11,7 @@ export default function Modal() {
 
 const [estado,setEstado] = useState(false);
 
+//---Funciones que manejan el onclick abrir y cerrar ventana------------------------------------
 const abrirVentana =(() => {
     setEstado(true)
 });
@@ -19,7 +20,10 @@ const cerrarVentana = (() => {
     setEstado(false)
 })
 
+//---------------------USEEFFECT----------------------------------------------------------------
 
+//El use efect solo nos sirve para que no haga scroll muentras este abierta la pantalla modal
+//si pantalla modal true aplica estilo en linea overflow hidden, sino automatico
 useEffect(() => {
 
   if(estado) {
@@ -33,11 +37,9 @@ useEffect(() => {
 });
 
 
+//---Return-------------------------------------------------------------------------------------
 
-
-
-
-
+//Return con botones abrir y cerrar, pantalla modal tiene dos div dentro
     return(
         <div>
 
