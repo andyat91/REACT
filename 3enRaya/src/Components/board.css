@@ -1,0 +1,33 @@
+.lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(149, 247, 201);
+  font-size: 40px;
+}
+.cuadrado {
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: rgb(149, 247, 201);
+  margin: 5px;
+}
+
+.button {
+    padding: 16px;
+    width: 100%;
+    color: rgb(149, 247, 201) ;
+    border: 6px solid;
+    border-color:rgb(149, 247, 201) ;
+    font-size: 32px;
+    border-radius: 8px;
+    background-color: #213547;;
+}

@@ -1,6 +1,15 @@
-.cuadrado{
-    font-size: 32px;
-    padding: 80px;
-    border: 1px solid;
- 
+.cuadrado {
+    
+    border: none;
+  
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: rgb(149, 247, 201);
+    margin: 5px;
 }
+

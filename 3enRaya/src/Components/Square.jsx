@@ -1,4 +1,4 @@
-
+import "./board.css"
 
 export default function Square({ value , onCLickSquare }) {
 
