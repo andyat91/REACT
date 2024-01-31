@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 import { Divider } from "@mui/material"
+import { Link } from "react-router-dom"
 
 export default function Home() {
     const [planets, setPlanets] = useState([])
-    const [characters, setCharacters] = useState([])
-    const [planetSelected, setPlanetSelected] = useState(null)
+    
 
 
     useEffect(() => {
@@ -20,38 +20,15 @@ export default function Home() {
         getPlanets();
     }, [])
 
-    function setIdPlanet(planetId){
-        setPlanetSelected(planetId)
-    }
-
-    useEffect(() => {
-        async function getCharacters(){
-            try{
-                if(planetSelected){
-                const result = await fetch(`https://dragonball-api.com/api/planets/${planetSelected}`);
-                const characters = await result.json()
-                console.log(characters)
-                setCharacters(characters.characters)
-                }
-            } catch(error){
-                console.log(error)
-            }
-        }
-        getCharacters();
-    }, [planetSelected])
-
 
 
     return(
         <>
         <h1>Hola,que tal? Estas en HOME</h1>
         <ul>
-            {planets.map((planet) => <li key={planet.id} onClick={() => setIdPlanet(planet.id)}>{planet.name}</li>)}
+            {planets.map((planet) => <li key={planet.id} ><Link to={`planet/${planet.id}`}>{planet.name}</Link></li>)}
         </ul>
         <Divider/>
-        <ul>
-            {characters.map((character) => <li key={character.id}>{character.name}</li>)}
-        </ul>
         </>
     )
 }
