@@ -1,0 +1,21 @@
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 120px;
+   
+}
+
+.headercontainer img{
+    width: 80px;
+
+}
+
+.headercontainer input{
+    padding: 16px;
+    padding-right: 120px;
+    border-radius: 8px;
+    border: none;
+    background-color: indianred;
+
+}

@@ -7,6 +7,7 @@ import Character from "./views/Character/Character";
 
 function App() {
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>

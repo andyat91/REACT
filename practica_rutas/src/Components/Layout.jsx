@@ -18,6 +18,9 @@ export function Layout() {
                 <li>
                     <Link to="/inicio">Inicio</Link>
                 </li>
+                <li>
+                    <Link to="/dashboard">Dashboard</Link>
+                </li>
             </ul>
         </nav>
         <Outlet/>

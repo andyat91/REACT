@@ -8,6 +8,8 @@ import Inicio from './views/Inicio/Inicio'
 import Dashboard from './views/Dashboard/Dashboard'
 import Overview from './views/Dashboard/overview'
 import Star from './views/Dashboard/stars'
+import Research from './views/Blog/Research'
+import NotFound from './Components/NotFound/NotFound'
 
 
 
@@ -20,7 +22,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout/>}>
             <Route index element={<Home/>} />
-            <Route path="blog" element={<Blog/>} />
+            <Route path="blog" element={<Blog/>} >
+              <Route path=":id" element={<Research/>}/>
+            </Route>
             <Route path="contacto" element={<Contacto/>} />
             <Route path="inicio" element={<Inicio/>} />
             <Route path="dashboard" element={<Dashboard/> } >
@@ -28,6 +32,7 @@ function App() {
               <Route path="stars" element={<Star/>} />
             </Route>
           </Route>
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
       

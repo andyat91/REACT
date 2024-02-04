@@ -24,7 +24,7 @@ export default function Home() {
 
     return(
         <>
-        <h1>Hola,que tal? Estas en HOME</h1>
+        <h1>Dragon Ball</h1>
         <ul>
             {planets.map((planet) => <li key={planet.id} ><Link to={`planet/${planet.id}`}>{planet.name}</Link></li>)}
         </ul>
