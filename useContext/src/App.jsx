@@ -1,24 +1,21 @@
-// import Boton from "./Components/Boton";
-// import Contador from "./Components/Contador";
-// import { ContadorProvider } from "./context/ContadorContext";
-import Galeria from "../../practica_rutas/src/Components/Galeria/Galeria";
-import { GaleryProvider } from "./context/GaleryContext";
 
+import { BrowserRouter , Routes, Route } from "react-router-dom";
+import Layout from "./Components/Layout/Layout";
 
+import Login from "./views/Login.jsx/Login";
+import Home from "./views/Home.jsx/Home";
 
 export default function App() {
   return (
-    // <ContadorProvider>
-    //   <div className="App">
-    //     <h1>Hello useContext</h1>
-    //    <Contador/>
-    //    <Boton/>
-    //   </div>
-    // </ContadorProvider>
-
-    <GaleryProvider>
-      <Galeria/>
-
-    </GaleryProvider>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Layout/>} >
+        <Route index element={<Login/>} />
+        <Route path="/home" element={<Home/>} />
+      </Route>
+      
+   
+    </Routes>
+    </BrowserRouter>
   );
 }

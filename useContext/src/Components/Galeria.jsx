@@ -1,5 +1,5 @@
-import Buttonimages from "../../../../useContext/src/Components/Button-images"
-import { useGalery } from "../../../../useContext/src/context/GaleryContext"
+import Buttonimages from "./Button-images"
+import { useGalery } from "../context/GaleryContext"
 
 
 export default function Galeria() {
